@@ -1,1 +1,16 @@
-
+{
+  "auth": {
+    "device_id": "",
+    "account_id": "", 
+    "secret_key": ""
+  },
+  "status_message": "SizzyBotV1",
+  "platform_type": "Windows",
+  "command_prefix": "!",
+  "fortnite": {
+    "cid": "CID_NPC_Athena_Commando_M_Fallback",
+    "eid": "EID_NPC_Gardener_Nurture",
+    "banner": "BannerToken_TBD_S13_SpraySweater",
+    "add_users": true
+  }
+}
