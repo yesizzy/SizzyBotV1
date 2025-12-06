@@ -1,1 +1,3 @@
-
+aiohttp
+pydantic
+git+https://github.com/xMistt/rebootpy/
