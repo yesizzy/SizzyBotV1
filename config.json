@@ -4,13 +4,34 @@
     "account_id": "", 
     "secret_key": ""
   },
-  "status_message": "SizzyBotV1",
-  "platform_type": "Windows",
-  "command_prefix": "!",
+  "bot": {
+    "status_message": "SizzyBotV1",
+    "platform_type": "Windows",
+    "command_prefix": "!"
+  },
   "fortnite": {
-    "cid": "CID_NPC_Athena_Commando_M_Fallback",
-    "eid": "EID_NPC_Gardener_Nurture",
-    "banner": "BannerToken_TBD_S13_SpraySweater",
-    "add_users": true
+    "default_cosmetic": {
+      "cid": "CID_NPC_Athena_Commando_M_Fallback",
+      "eid": "EID_NPC_Gardener_Nurture",
+      "backpack": "",
+      "pickaxe": "",
+      "sidekick": "",
+      "shoes": "",
+      "glider": "",
+      "contrail": ""
+    },
+    "banner": {
+      "icon": "BannerToken_TBD_S13_SpraySweater",
+      "color": "DefaultColor"
+    },
+    "party": {
+      "privacy": "PUBLIC",
+      "max_size": 16,
+      "add_users": true
+    },
+    "matchmaking": {
+      "region": "auto",
+      "playlist": "Playlist_DefaultSolo"
+    }
   }
 }
